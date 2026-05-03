@@ -1,1 +1,47 @@
 
+.spec-table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.spec-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333333;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.spec-table td {
+  padding: 8px 25px;
+  background: #eeeeee;
+  vertical-align: middle;
+}
+
+.spec-table td:first-child {
+  width: 15%;
+  min-width: 135px;
+  background: #f7f7f7;
+  font-weight: 400;
+}
+
+.spec-table td:last-child {
+  width: 85%;
+}
+
+.spec-table a {
+  color: #00a4e4;
+  text-decoration: none;
+}
+
+.spec-table a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  .spec-table td {
+    padding: 8px 12px;
+  }
+}
